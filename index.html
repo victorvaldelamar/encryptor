@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Oracle ONE Encryptor</title>
+        <meta name="description" content="Java script encryptor">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="Víctor Valdelamar">
+        <link rel="stylesheet" href="Styles/style.css">
+    </head>
+
+    <body>
+        
+        <header>
+            <div >
+                <img src="Img/Logo.png" alt="logo" class="logo">
+            </div>  
+        </header>
+        <div class="container">
+            <main>
+                <section id="placeholder">
+                    <textarea class="textarea" id="textarea">Type your text here!</textarea>
+                </section>
+                <section class="warning" id="warning">
+                    <img src="Img/bi_exclamation-circle-fill.png" alt="exclamation">
+                    <p>Only lowercase letters and no accent</p>
+                </section>
+                <section class="buttons_section">
+                    <button class=" button button-blue" id="btn_encrypt">Encrypyt!</button>
+                    <button class=" button button-gray" id="btn_decrypt">Decrypt!</button>
+                </section>                
+            </main>
+            <aside class="message" id="message">
+                <img src="Img/Muñeco.png" alt="a person with magnifying glass">
+                <p class="p p-p1">No message found!</p>
+                <p class="p p-p2">Type the text to encrypt/decrypt</p> 
+            </aside>
+        </div>
+
+        <footer class="footer" id="footer"> <p>By Victor Valdelamar</p></footer>
+        
+        
+        <script src="Js/encryptor.js" async defer></script>
+    </body>
+</html>
